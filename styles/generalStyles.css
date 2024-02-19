@@ -1,0 +1,74 @@
+@import url("https://fonts.cdnfonts.com/css/wotfard");
+@import url("https://fonts.cdnfonts.com/css/frosty-fizz");
+@import url("https://fonts.cdnfonts.com/css/flapdoodle");
+
+:root {
+  --orange: #ffcc80;
+  --cornflower-blue: #6494ed;
+  --darker-cornflower-blue: #6494edde;
+  --light-blue: #87ceeb;
+  --navy-blue: #001f3f;
+  --sage-green: #9bc995;
+  --white: #ffffff;
+  --dark-gray: #222222dc;
+  --solid-black: #000000;
+  --navy-blue-black-gradient: linear-gradient(
+    45deg,
+    hsl(210deg 100% 12%) 0%,
+    hsl(212deg 100% 12%) 11%,
+    hsl(213deg 100% 11%) 22%,
+    hsl(214deg 100% 11%) 33%,
+    hsl(216deg 100% 10%) 44%,
+    hsl(218deg 100% 10%) 56%,
+    hsl(222deg 100% 9%) 67%,
+    hsl(227deg 100% 8%) 78%,
+    hsl(233deg 100% 8%) 89%,
+    hsl(0deg 0% 0%) 100%
+  );
+
+  /* font family */
+  --wotfard: "Wotfard", sans-serif;
+  --frosty-fizz: "FROSTY FIZZ", sans-serif;
+
+  /* font size */
+  --header-logo: 1.75rem;
+  --nav: 1.25rem;
+  --h1-about-me: 2.5rem;
+  --p-about-me: 1.4rem;
+  --socials-hero: 1.5rem;
+  --section-title: 3rem;
+  --skills-heading: 1.75rem;
+  --skills-list: 1.5rem;
+  --download: 1.2rem;
+  --project-name: 1.3rem;
+  --project-tech-stack: 1.1rem;
+  --view-website: 1.2rem;
+  --contact-me-btns: 1.5rem;
+  --footer: 1.2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: var(--wotfard);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  background-image: var(--navy-blue-black-gradient);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--white);
+  width: 100%;
+  max-width: 1280px;
+  overflow-x: hidden;
+}

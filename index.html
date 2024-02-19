@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Project</title>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <!-- Bootstrap icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/generalStyles.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/about-me.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/resume.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/mediaQuery.css" />
+  </head>
+
+  <body>
+    <!-- <header>
+      <strong>RenzRPh <i class="bi bi-prescription"></i> </strong>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me-section">About me</a>
+          </li>
+          <li>
+            <a href="#skills-section">Skills</a>
+          </li>
+          <li>
+            <a href="#resume-section">Resume</a>
+          </li>
+          <li>
+            <a href="#projects-section">Projects</a>
+          </li>
+          <li>
+            <a
+              href="https://renzrph.hashnode.dev/step-by-step-guide-deploying-your-first-html-css-and-javascript-projects-on-github"
+              target="_blank"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header> -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <input type="checkbox" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li>
+              <a href="#about-me-section">About me</a>
+            </li>
+            <li>
+              <a href="#skills-section">Skills</a>
+            </li>
+            <li>
+              <a href="#resume-section">Resume</a>
+            </li>
+            <li>
+              <a href="#projects-section">Projects</a>
+            </li>
+            <li>
+              <a
+                href="https://renzrph.hashnode.dev/step-by-step-guide-deploying-your-first-html-css-and-javascript-projects-on-github"
+                target="_blank"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a href="#contact-section">Contact</a>
+            </li>
+          </ul>
+          <strong class="logo"
+            >RenzRPh <i class="bi bi-prescription"></i>
+          </strong>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ABOUT ME -->
+    <section class="about-me-section" id="about-me-section">
+      <div class="about-me-info">
+        <h1>Hello, I'm <span class="custom-underline">Renz Estor</span></h1>
+        <p>
+          a licensed pharmacist with a passion for web development. I'm on a
+          mission to merge my expertise in pharmaceuticals with my aspiration to
+          create innovative digital solutions as a web developer.
+        </p>
+        <p>Let's connect and create something extraordinary together.</p>
+      </div>
+      <div class="about-me-image">
+        <img src="./assets/programmer image.svg" alt="" />
+        <div class="socials socials-hero">
+          <a href="https://github.com/renzrph" target="_blank"
+            ><i class="bi bi-github"></i> GitHub</a
+          >
+          <a href="https://gitlab.com/renzrph" target="_blank"
+            ><i class="bi bi-gitlab"></i> GitLab</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- WAVE IMAGE-->
+    <img class="wave-image" src="./assets/wave.png" alt="" />
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills-section">
+      <h2>SKILLS</h2>
+      <div class="skills-container">
+        <div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/html.png"
+                alt="html icon"
+              />
+              <span>HTML</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/css.png"
+                alt="css icon"
+              />
+              <span>CSS</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/javascript.png"
+                alt="javascript icon"
+              />
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/reactjs.png"
+                alt="reactjs icon"
+              />
+              <span>ReactJS</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Backend</h3>
+          <ul>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/nodejs.png"
+                alt="nodejs icon"
+              />
+              <span>NodeJS</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/expressjs.png"
+                alt="expressjs icon"
+              />
+              <span>ExpressJS</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/sql.png"
+                alt="sql icon"
+              />
+              <span>SQL</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/mongodb.png"
+                alt="mongodb icon"
+              />
+              <span>MongoDB</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Others</h3>
+          <ul>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/figma.png"
+                alt="figma icon"
+              />
+              <span>Figma</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/git.png"
+                alt="git icon"
+              />
+              <span>Git</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/github.png"
+                alt="github icon"
+              />
+              <span>GitHub</span>
+            </li>
+            <li>
+              <img
+                class="tech-icons"
+                src="./assets/tech-stack-icons/gitlab.png"
+                alt="gitlab icon"
+              />
+              <span>GitLab</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="resume-section" id="resume-section">
+      <h3>RESUME</h3>
+      <a href="./assets/Renz Estor (Web Developer).pdf" target="_blank"
+        >View my Resume</a
+      >
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects-section" id="projects-section">
+      <h3>PROJECTS</h3>
+      <div class="projects-container">
+        <div>
+          <img
+            src="./assets/projects-images/advice-generator-img.png"
+            alt="advice generator project"
+          />
+          <h4>Advice Generator</h4>
+          <span>HTML | CSS | JavaScript</span>
+          <a
+            href="https://renzrph.github.io/advice-generator-app/"
+            target="_blank"
+            >View Website</a
+          >
+        </div>
+        <div>
+          <img
+            src="./assets/projects-images/nutri-facts-calculator-img.png"
+            alt="nutrition facts calculator project"
+          />
+          <h4>Nutrition Facts Calculator</h4>
+          <span>HTML | CSS | JavaScript</span>
+          <a href="https://renzrph.github.io/reni-calculator/" target="_blank"
+            >View Website</a
+          >
+        </div>
+        <div>
+          <img
+            src="./assets/projects-images/tip-calculator-img.png"
+            alt="tip calculator project"
+          />
+          <h4>Tip Calculator</h4>
+          <span>ReactJS | CSS</span>
+          <a href="https://renzrph.github.io/tip-calculator/" target="_blank"
+            >View Website</a
+          >
+        </div>
+        <div>
+          <img
+            src="./assets/projects-images/quiz-game-img.png"
+            alt="quiz game project"
+          />
+          <h4>Rx Recall PH (Quiz App)</h4>
+          <span>ReactJS | CSS</span>
+          <a
+            href="https://renzrph.github.io/drug-brandname-quiz/"
+            target="_blank"
+            >View Website</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact-section">
+      <h3>Contact Me</h3>
+      <div>
+        <a href="mailto:renzestorrph@gmail.com">
+          <i class="bi bi-envelope-at-fill"></i> Send Email</a
+        >
+        <a
+          href="https://www.linkedin.com/in/renz-estor-8a1794205/"
+          target="_blank"
+        >
+          <i class="bi bi-linkedin"></i> LinkedIn</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="socials socials-footer">
+        <a href="https://github.com/renzrph" target="_blank"
+          ><i class="bi bi-github"></i> GitHub
+        </a>
+
+        <a href="https://gitlab.com/renzrph" target="_blank"
+          ><i class="bi bi-gitlab"></i> GitLab
+        </a>
+      </div>
+      <small>Created by: Renz Estor</small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.projects-section {
+  background-color: var(--solid-black);
+  padding: 4rem;
+}
+
+.projects-section h3 {
+  text-align: center;
+  padding: 0.5rem 0rem;
+  letter-spacing: 0.5rem;
+  font-size: var(--section-title);
+}
+
+.projects-container {
+  background-color: var(--dark-gray);
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.projects-container div {
+  height: 360px;
+  width: 400px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: var(--navy-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container div img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 200px;
+  width: 100%;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.projects-container h4 {
+  padding: 0.8rem 0 0.5rem 0;
+  font-size: var(--project-name);
+}
+
+.projects-container span {
+  padding: 0.5rem 0 1.25rem 0;
+  font-size: var(--project-tech-stack);
+}
+
+.projects-container a {
+  background-color: var(--cornflower-blue);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: var(--view-website);
+  text-decoration: none;
+  color: var(--white);
+  width: 100%;
+  max-width: 275px;
+}
+
+.projects-container a:hover {
+  background-color: var(--darker-cornflower-blue);
+}

@@ -25,3 +25,20 @@ footer {
 .socials a:hover {
   color: var(--cornflower-blue);
 }
+
+footer div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-to-top {
+  margin: 1rem 0;
+  color: var(--white);
+  font-size: var(--back-to-top);
+}
+
+.back-to-top:hover {
+  color: var(--cornflower-blue);
+  transition: color 0.3s ease-in-out;
+}

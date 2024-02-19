@@ -1,3 +1,9 @@
+.wave-image {
+  display: block;
+  height: 125px;
+  width: 100vw;
+}
+
 .skills-section {
   background-color: var(--solid-black);
   color: var(--white);

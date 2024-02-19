@@ -42,4 +42,7 @@
   --contact-me-btns: 1.5rem;
   --footer: 1.2rem;
   --back-to-top: 1.1rem;
+
+  /* transition */
+  --transition-hover: color 0.3s ease-in-out;
 }

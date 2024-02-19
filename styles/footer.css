@@ -40,5 +40,5 @@ footer div:last-child {
 
 .back-to-top:hover {
   color: var(--cornflower-blue);
-  transition: color 0.3s ease-in-out;
+  transition: var(--transition-hover);
 }

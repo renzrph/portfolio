@@ -58,11 +58,5 @@
   font-size: var(--socials-hero);
   padding: 0 0.5rem;
   text-wrap: nowrap;
-  transition: color 0.3s ease-in-out;
-}
-
-.wave-image {
-  display: block;
-  height: 125px;
-  width: 100vw;
+  transition: var(--transition-hover);
 }

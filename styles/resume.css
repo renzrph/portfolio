@@ -18,7 +18,7 @@
   padding: 1rem 3rem;
   border-radius: 10px;
   text-decoration: none;
-  font-size: var(--download);
+  font-size: var(--view-resume);
 }
 
 .resume-section a:hover {

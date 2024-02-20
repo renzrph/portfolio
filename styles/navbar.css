@@ -53,6 +53,13 @@
   color: var(--cornflower-blue);
 }
 
+header strong {
+  padding: 1rem 2rem;
+  font-size: var(--header-logo);
+  font-family: var(--flapdoodle);
+  display: flex;
+}
+
 /* @media (max-width: 768px) {
 } */
 

@@ -1,3 +1,10 @@
+header .logo {
+  padding: 1rem 2rem;
+  font-size: var(--header-logo);
+  font-family: var(--flapdoodle);
+  display: flex;
+}
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -45,6 +52,7 @@
 .navbar a {
   color: var(--white);
   text-decoration: none;
+  font-size: var(--nav);
   font-weight: 500;
   transition: var(--transition-hover);
 }
@@ -52,19 +60,3 @@
 .navbar a:hover {
   color: var(--cornflower-blue);
 }
-
-header strong {
-  padding: 1rem 2rem;
-  font-size: var(--header-logo);
-  font-family: var(--flapdoodle);
-  display: flex;
-}
-
-/* @media (max-width: 768px) {
-} */
-
-/* @media (max-width: 500px) {
-  .navbar-container input[type="checkbox"]:checked ~ .logo {
-    display: none;
-  }
-} */

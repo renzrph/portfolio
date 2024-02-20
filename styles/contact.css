@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.contact-section h3 {
+.contact-section h2 {
   font-size: var(--section-title);
   padding: 1rem;
   letter-spacing: 0.5rem;
